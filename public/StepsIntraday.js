@@ -34,7 +34,7 @@ var chartConfig = {
         {
           scaleLabel: {
             display: true,
-            labelString: "beats per minute"
+            labelString: "steps per minute"
           },
           ticks: {
             beginAtZero: false
