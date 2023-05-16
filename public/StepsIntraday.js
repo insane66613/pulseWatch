@@ -115,7 +115,7 @@ function handleSubmit() {
     if (moment(startTime, "HH:mm").isBefore(moment(endTime, "HH:mm"))) {
       document.getElementById("startTime").className = "form-control";
       document.getElementById("endTime").className = "form-control";
-      getUserStepsData(date);
+      getUserActivityData(date);
     } else {
       document.getElementById("startTime").className =
         "form-control is-invalid";
